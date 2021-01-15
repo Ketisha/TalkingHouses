@@ -1,0 +1,48 @@
+*{
+    transition: all .3s ease;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+}
+
+svg {
+    height: 100%;
+    margin: auto;
+}
+
+audio {
+    display: none;
+}
+
+button {
+    outline:none;
+    position: absolute;
+    left: 50%;
+    font-family: Arial!important;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    box-sizing: inherit;
+    border-width: 0;
+    border-style: solid;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background: 0 0;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #3490dc;
+    border-color: #2779bd;
+    border-radius: .25rem;
+    border-bottom-width: 4px;
+    font-weight: 700;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+}
