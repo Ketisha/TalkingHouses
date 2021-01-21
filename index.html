@@ -51,7 +51,8 @@
                 })
             }
             document.querySelector(selector).onclick = () => {
-                window.location.href = window.location.href.replace(window.location.href.split("/").slice(-1), item.htmlFileName)
+                // window.location.href = window.location.href.replace(window.location.href.split("/").slice(-1), item.htmlFileName)
+                windows.location.href = windows.location.href + item.htmlFileName
             }
         })
     })
